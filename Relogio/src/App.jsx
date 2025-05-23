@@ -6,9 +6,7 @@ function getTimeAngles(date) {
   const minutes = date.getMinutes();
   const seconds = date.getSeconds();
 
-  // Ângulo do sol: 360° em 24h
   const sunAngle = ((hours * 3600 + minutes * 60 + seconds) / 86400) * 360;
-  // Ângulo da lua: oposta ao sol
   const moonAngle = (sunAngle + 180) % 360;
 
   return {
@@ -33,15 +31,15 @@ export default function App() {
   return (
     <div className="container">
       <div className="orbit">
-  <div
-    className="sun"
-    style={{ transform: `translate(-50%, -50%) rotate(${sunAngle}deg) translateY(-190px)` }}
-  />
-  <div
-    className="moon"
-    style={{ transform: `translate(-50%, -50%) rotate(${moonAngle}deg) translateY(-190px)` }}
-  />
-</div>
+        <div
+          className="sun"
+          style={{ transform: `translate(-50%, -50%) rotate(${sunAngle}deg) translateY(-190px)` }}
+        />
+        <div
+          className="moon"
+          style={{ transform: `translate(-50%, -50%) rotate(${moonAngle}deg) translateY(-190px)` }}
+        />
+      </div>
       <div className="clock">
         <div
           className="hand hour"

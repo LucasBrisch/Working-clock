@@ -14,7 +14,6 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  /* Remova o margin: 60px auto; */
 }
 
 .clock {
@@ -87,7 +86,7 @@ body {
   width: 250px;
   height: 250px;
   transform: translate(-50%, -50%);
-  z-index: 3; /* Coloque acima do relógio */
+  z-index: 3;
   pointer-events: none;
 }
 
