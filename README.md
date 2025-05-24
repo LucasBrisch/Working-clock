@@ -1,43 +1,29 @@
-⏰ The Working Clock ☀️🌙
-Welcome to the Working Clock, a charming and dynamic timepiece crafted with React and the Canvas API! This project goes beyond a simple clock, bringing the rhythm of day and night directly to your browser. Watch as the sun and moon gracefully orbit the clock face, mirroring the real-world time.
+# 🕰️ Canvas & Games Project - Analog Clock with Sun and Moon ☀️🌙
 
-✨ Project Overview
-This clock isn't just about telling time; it's about making time a visual journey! Developed as a college project for my HTML5 - Canvas & Games subject, it elegantly combines React's component-based architecture with the power of the Canvas API. It's a delightful demonstration of how modern front-end frameworks can create something both functional and aesthetically pleasing, managing the animation and state of the sun and moon with ease.
+This project was developed for the **Canvas & Games** course and features a fully functional **analog clock** built with **React**, using the user's local system time 🖥️. It includes animated **Sun and Moon** that rotate in sync with the clock hands 🌍⏳.
 
-🌟 Key Features
-Real-time Synchronization: The clock precisely matches your computer's current time, down to the second.
-Dynamic Day/Night Cycle: Observe a friendly sun ☀️ and a serene moon 🌙 that rotate around the clock, visually representing the time of day.
-Built with React: Leverages React's declarative UI for efficient component management and state handling of the clock and its celestial companions.
-Canvas API Powered: Utilizes the robust Canvas API (accessed via the <canvas> HTML element) for drawing and animating the clock face and its moving elements.
-Clean & Simple Aesthetics: A straightforward design that puts the animated elements at the forefront.
-🚀 Getting Started
-It's super easy to get this working clock ticking on your machine!
+---
 
-Clone the Repository:
+## 🚀 Technologies Used
 
-Bash
+- ⚛️ **React.js** — Component-based user interface  
+- 🌐 **Node.js** — Development environment and local server  
+- 🌐 **HTML + CSS + JavaScript** — Structure, styling, and animations (no Canvas API!)
 
-git clone https://github.com/LucasBrisch/Working-clock.git
-Navigate to the Project Directory:
+---
 
-Bash
+## 🎮 Features
 
-cd Working-clock
-Install Dependencies:
+✅ Displays current time with hour, minute, and second hands  
+✅ Sun and Moon rotate smoothly with the clock  
+✅ Synced with the user's system time  
+✅ Built entirely with standard web technologies (no canvas)
 
-Bash
+---
 
-npm install
-Start the Development Server:
+## 📸 Project Preview
 
-Bash
+![Imagem do WhatsApp de 2025-05-23 à(s) 22 38 31_d5cd4bfe](https://github.com/user-attachments/assets/6fdf2432-52ed-41d0-8634-47661ffe584d)
 
-npm run dev
-And voilà! The clock will spring to life in your browser (usually at http://localhost:5173 or similar Vite default), instantly synchronized with your system's time.
 
-🛠️ Technologies Used
-React: The powerful JavaScript library for building user interfaces.
-Vite: A lightning-fast build tool for modern web projects.
-Canvas API: For drawing and animating the clock and its elements.
-JavaScript: The core language for the application logic.
-CSS3: For styling and layout.
+
