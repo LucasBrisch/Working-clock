@@ -17,7 +17,7 @@ This project was developed for the **Canvas & Games** course and features a full
 ✅ Displays current time with hour, minute, and second hands  
 ✅ Sun and Moon rotate smoothly with the clock  
 ✅ Synced with the user's system time  
-✅ Built entirely with standard web technologies (no canvas)
+✅ Built entirely with standard web technologies
 
 ---
 
